@@ -1,0 +1,91 @@
+/* body {
+    background: oldlace;
+}
+
+h1 {
+    color: rgb(30, 144, 255);
+}
+
+h2 {
+    color: salmon;
+}
+
+h3 {
+    color: #ff0000;
+}
+
+#burger {
+    color: orange;
+}
+
+#onions {
+    color: greenyellow;
+}
+
+#fries {
+    color: red;
+}
+
+.strawberry {
+    background: cornflowerblue;
+}
+
+.blueberry {
+    background: darkblue;
+} */
+
+
+
+/* #rainbowOne {
+    background: green;
+}
+
+#rainbowTwo {
+    background: orangered;
+}
+
+#rainbowThree {
+    background: yellow;
+}
+
+.rainbowproperties {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 100px;
+    display: inline-block;
+}  */
+
+
+
+ p {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+    border: solid black 3px;
+} 
+
+
+ li a {
+    color: green;
+} 
+
+
+  
+li,p:nth-child(3) {
+    background: red;
+} 
+
+p:nth-child(3n) {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+body {
+    font-family: 'Henny Penny', cursive;
+}
+
+.mybacon {
+    font-size: 100px;
+    color: salmon;
+} 

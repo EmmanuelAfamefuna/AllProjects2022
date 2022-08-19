@@ -1,0 +1,23 @@
+/* INSERT INTO bucketlist.bucketlist (description, iscomplete, user_id)
+VALUES ('Run one more', false, 35);  */
+
+/* SELECT * FROM bucketlist.bucketlist */
+
+SELECT id,
+        description,
+        iscomplete
+FROM    bucketlist.bucketlist
+WHERE   user_id = 35;  
+
+
+/* DELETE FROM bucketlist.bucketlist
+WHERE id = 67
+        AND user_id = 35
+        RETURNING *;`;  */
+
+
+/* UPDATE bucketlist.bucketlist
+    SET iscomplete = NOT iscomplete
+WHERE id = 82
+    AND user_id = 35
+RETURNING *;   */  

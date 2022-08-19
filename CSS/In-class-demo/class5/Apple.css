@@ -1,0 +1,33 @@
+/* body {
+    color: green;
+}
+
+ul {
+    color: purple;
+}
+
+li {
+    color: orange;
+}
+
+.company {
+    color: red;
+} */
+
+body {
+    color: green;
+}
+
+ul {
+    color: purple;
+}
+
+li {
+    color: orange;
+}
+
+#tech {
+    color: blue;
+}
+
+  /* There's another rule that will override all other rule which is, it's called !important but try not to use the rule "important", it's more likely a bad code  */

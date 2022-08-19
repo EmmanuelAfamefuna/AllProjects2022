@@ -1,0 +1,41 @@
+.first-later {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: goldenrod;
+} 
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue 30%, yellow, tomato, purple);
+}
+
+.squre {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(white, yellow);
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    background: rgb(red, green, blue, alpha)(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: dodgerblue;
+    box-shadow: 0 0 30px grey;
+}
+
+h3 {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}

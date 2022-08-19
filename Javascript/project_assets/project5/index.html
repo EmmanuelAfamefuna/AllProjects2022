@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+        rel="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto&display=swag"
+        rel="stylesheet"/>
+    <link
+        rel="https://fonts.googleapis.com/css2?family=Roboto&display=swag"
+        rel="stylesheet"/>
+
+        <script src="https://kit.fontawesome.com/d056cc3422.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav>
+    <ul>
+        <li id="logo">
+            <a class="logo"> <h1>The Desserts <i class="fa-solid fa-utensils"></i></h1></a>
+        </li>
+        <li class="drop">
+            <a href="#trending">Trending</a>
+            <div class="drop-content">
+            <a href="#">Entertainment</a>
+            <a href="#">Travel</a>
+            <a href="#">Education</a>
+            </div>
+        </li>
+        <li class="drop">
+            <a href="#">Tech</a>
+            <div class="drop-content">
+            <a href="#">Latest</a>
+            <a href="#">Programming</a>
+            <a href="#">App Reviews</a>
+            </div>
+        </li>
+        <li class="drop">
+            <a href="#">Politics</a>
+            <div class="drop-content">
+                <a href="#">Healines</a>
+                <a href="#">The Fact</a>
+                <a href="#">The Gossip</a>
+            </div>
+        </li>
+        <li class="drop">
+            <a href="#">About</a>
+            <div class="drop-content">
+                <a href="#">Our Story</a>
+                <a href="#">Donate</a>
+            </div>
+        </li>
+        <li class="drop">
+            <a href="#">FAQ</a>
+            <div class="drop-content">
+                <a href="#">Our Policy</a>
+                <a href="#">Careers</a>
+            </div>
+        </li>
+        <li class="drop">
+            <a href="#">Contact</a>
+            <div class="drop-content">
+                <a href="#">Email</a>
+                <a href="#">Phone</a>
+            </div>
+        </li>
+    </ul>
+    </nav>
+
+    <div class="text">
+        <p>
+            <h2>Image Gallery of your favorite treats</h2>
+        </p>
+    </div>
+
+        <div class="carousel"> <!-- data-carousel -->
+            <!--  This is where i linked the img1 so when the user open the site it will be the first to pop up -->
+            
+            <img src="images/img1.jpg" id="image" alt="">
+
+                    <button class="carousel_button previous" onclick="goBackwards()">previous</button>
+
+                    <button class="carousel_button forward" onclick="goForward()">next</button>
+        </div>
+
+    <footer class="footer">
+        
+        <div id="foot"><h2>The Desserts</h2></div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

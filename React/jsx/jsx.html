@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JSX folder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="jsx.css">
+        <script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script type="text/babel">
+            const Boatman = () => {
+                return (
+                    <div className="theimage">
+                        <h1 className="name">REACT</h1>
+                        <img className="theimage" src="image/boatman.jpg" />
+                        <h3>How does he feel?</h3>   
+                        <FeelingsList />
+                        <RandomBox />
+                    </div>       
+                );
+            }
+        const FeelingsList = () => {
+            const theStyles = {fontSize: "15px", color: "gold"};  
+            return (
+                <ul style={theStyles}>
+                            <li>Happy</li>
+                            <li>Sad</li>
+                            <li>Excited</li>
+                            <li>Mad</li>
+                        </ul>
+            )
+        }    
+        const RandomBox = () => {
+            const fontSize = Math.floor((Math.random() * 80)) + 20;
+            const backgroundColor = [
+                'red', 
+                'green', 
+                'blue', 
+                'black',
+                'gold'
+            ][Math.floor(Math.random() * 5)];
+            const myStyles = {
+                display: "flex",
+                alignItems: "center",
+                backgroundColor: backgroundColor,
+                fontSize: `${fontSize}px`,
+                height: "200px",
+                width: "400px",
+                color: "white"
+            }
+            return (
+                <div style={myStyles}>
+                    RandomBox
+                </div>    
+            )
+        }
+        ReactDOM.render(<Boatman />, document.getElementById("app"));    
+        </script>
+
+    </body>
+    </html
+</html>

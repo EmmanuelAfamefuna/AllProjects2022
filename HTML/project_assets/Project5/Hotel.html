@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <h1>Hotel Room Service</h1>
+
+    <h3>Welcome to our hotel! We hope you enjoy your stay.</h3>
+        <fieldset>
+            <legend>Hotel Guest Contact Info</legend>
+
+                <p>
+                    <label>First name:
+                        <input type="text" autofocus name="first name required">
+                    </label>
+                <p>
+                </p>
+                    <label>Last name:
+                        <input type="text" name="last name required">
+                    </label>
+                </p>
+            
+                <p>
+                    <label>Room number:
+                        <input type="text" name="room numer rquired">
+                    </label>
+                </p>
+
+        </fieldset>        
+    
+                <p>What time would you like to be served?<span>
+                    <select name="time" id="time">
+                        <option value="time">6AM</option>
+                        <option value="time">6AM-12PM</option>
+                        <option value="time">12-6PM</option>
+                        <option value="seniors">6PM-6AM</option>
+                    </select>
+            </span>
+        </p>
+        <p>
+            Please choose your entree:
+            <div class="Entree">
+                <p>Waffles and chicken</p>
+                <p>Pancakes and syrup</p>
+                <p>Hash browns</p>
+                <p>Bacon & Eggs</p>
+                <p>Boring ol' toast</p>
+            </div>
+        </p>
+        <div class="container">
+            <p>Would you like extra butter?</p>
+            <!-- The form below contains three inline radio buttons: -->
+            <form>
+            <label class="radio-inline">
+                <input type="radio" name="optradio" checked>Yes
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">No
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Surprise me
+            </label>
+            </form>
+        </div>
+        <button>Submit</button>
+    </form>        
+</body>
+</html>

@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+}
+
+#background1 {
+    background: url('image/background1.jpg') center center no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#background2 {
+    background: url('image/background2.jpg') center center no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#background3 {
+    background: url('image/background3.jpg') center center no-repeat;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+#message h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black
+}
+
+
+.navicon {
+    font-size: 24px;
+    color: #fd7e14;
+    padding: 10px;
+}
+
+#the-footer {
+    background: #263238;
+    color: white;
+    padding: 50px 0;
+    font-size: 13px;
+    height: 200px;
+}
+
+#the-footer h6 {
+    color: #1E88E5;
+}
+
+#the-footer a {
+    color: #CFD8DC;
+    text-decoration: none;
+} 
+
+.footericon {
+    font-size: 96px;
+    color: #FD7E14;
+}
+
+#help {
+    position: relative;
+    left: 70%;
+    bottom: 140px;
+}
+
+#menu {
+    position: relative;
+    left: 85%;
+    bottom: 270px;
+}
+
+/* About page starts here */
+
+.section {
+    padding: 112px 0;
+    overflow: hidden;
+}
+
+.middle {
+    background: #262f36;
+    color: white;
+}
+
+.middle h2 {
+    color: #CFD8DC;
+}
+
+.form-group {
+    padding: 20px 0;
+}

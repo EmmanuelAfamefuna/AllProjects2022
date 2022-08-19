@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <h1>Tables/Forms</h1>
+<body>
+    <table border="1">
+        <tr>
+            <th>Tuesday's Soups</th>
+            <th>Wednesday'Soups</th>
+        </tr>
+        <tr>
+            <td>Chicken Noodle Soup</td>
+            <td>Broccoli Cheddar Soup</td>
+        </tr>
+        <tr>
+            <td>Creamy Tomato Soup</td>
+            <td>French Onion Soup</td>
+        </tr>
+    </table>
+
+    <!--We just added a form to our table-->
+    <form>
+        <p>Name</p><input type="text" placeholder="Enter your name" name="usre name" required>
+
+        <p>Password</p><input type="password" placeholder="Password" name="password" required>
+
+        <p>Email</p><input type="email" placeholder="email" name="email" required>
+
+        <p>Phone Number</p><input type="tel" placeholder="phone numer" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-4]{4}">
+
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <h1>Summer Camp Registration</h1>
+<body>
+    <form>
+        <div>
+            <label for="first">First Name</label>
+
+            <input type="text" id="first" name="first name required">
+
+                <label for="last">Last Name</label>
+
+            <input type="text" id="last" name="last name required">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+
+            <input type="text" id="Email" name="email required">
+
+                <label for="password">Password</label>
+
+            <input type="password" id="Password" name="password required">
+
+        </div>
+
+        <p>Select a month</p>
+
+        <div>
+            <input type="radio" name="month" id="jane" value="june">
+            <label for="june">June</label>
+        </div>
+
+        <div>
+            <input type="radio" name="month" id="july" value="july">
+            <label for="june">June</label>
+        </div>
+            <div>
+                <input type="radio" name="month" id="august" value="August">
+                <label for="august">August</label>
+            </div>
+
+            <br>
+            <div>
+                <label for="age">Select age group</label>
+                <select name="age" id="age">
+                    <option value="kids">under 18</option>
+                    <option value="youngadult">18-30</option>
+                    <option value="adults">30-50</option>
+                    <option value="seniors">50+</option>
+                </select>
+            </div>
+        <button>Register</button>
+    </form>
+    <!-- delete me one day -->
+</body>
+</html>

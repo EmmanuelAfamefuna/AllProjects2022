@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") %>
+<form action="/getPrice" id="currencies">
+     
+          <div class="usd">
+               <input type="radio" id="usd" name="price" value="USD" checked>
+                <label for="usd">USD</label>
+               <input type="radio" id="gbp" name="price" value="GBP">
+               <label for="gbp">GBP</label>
+               <input type="radio" id="eur" name="price" value="EUR">
+               <label for="eur">EUR</label>
+          </div>
+     
+     <br>
+     <button type="submit">Get Price</button>
+</form>
+
+<h1>This is the current price:</h1>
+ <%- currency %> <%= data %>
+ <%- include("partials/footer.ejs") %>

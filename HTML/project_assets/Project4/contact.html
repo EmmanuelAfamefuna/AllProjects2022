@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="breakfast.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>Do you need to place an online order? Fill out this form and we'll get your order ready!</p>
+
+    <form>
+        <p>First name</p><input type="text" autofocus placeholder="First name" name="First name" required>
+
+        <p>Last name</p><input type="text" placeholder="Last name" name="Last name" required>
+
+        <p>Password</p><input type="password" placeholder="Password" name="password" required>
+
+        <p>Email</p><input type="email" placeholder="Email" name="email" required>
+
+        <p>Phone Number</p><input type="tel" placeholder="000-0000" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-4]{4}">
+        
+        <p><textarea name="comment" id="" cols="30" rows="10" placeholder="What would you like to order?"></textarea></p>
+
+        <p>Would you like a side of hash browns?</p>
+
+        <div><input type="radio" name="option button" value="Yes">
+            <label for="yes">Yes</label>
+        </div>
+            <div><input type="radio" name="option button" value="No">
+            <label for="no">No</label>
+        </div>
+        <button>Submit</button>
+
+    </form> 
+</body>
+</html>

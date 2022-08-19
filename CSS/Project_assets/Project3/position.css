@@ -1,0 +1,122 @@
+body {
+    border: 7px solid black;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    font-family: 'Mansalva', cursive;
+}
+
+.one {
+    border: 5px solid black;
+    width: 500px;
+    height: 400px;
+    /* border-top: 0;
+    border-left: 0; */
+    background-color: orangered;
+    text-align: center;
+}
+
+.name {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-bottom: 0;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 80%;
+    left: 20%;
+}
+
+.two {
+    border: 6px solid black;
+    width: 290px;
+    height: 190px;
+    position: relative;
+    left: 67%;
+    bottom: 1%;
+    background-color: yellow;
+    text-align: center;
+}
+
+.three {
+    border: 6px solid black;
+    border-top: 0;
+    width: 290px;
+    height: 187px;
+    position: relative;
+    bottom: 34%;
+    background-color: green;
+    text-align: center;
+}
+
+.four {
+    border: 6px solid black;
+    width: 389px;
+    height: 100px;
+    position: relative;
+    bottom: 135%;
+    left: 56%;
+    text-align: center;
+}
+
+.five {
+    border: 6px solid black;
+    width: 100px;
+    height: 194px;
+    position: relative;
+    bottom: 85%;
+    left: 33%;
+    border-top: 0;
+    text-align: center;
+}
+
+.six {
+    border: 4px solid black;
+    width: 194px;
+    height: 190px;
+    position: relative;
+    bottom: 118%;
+    left: 45%;
+    border-right: 0;
+    text-align: center;
+}
+
+.seven{
+    border: 6px solid black;
+    width: 389px;
+    height: 100px;
+    position: relative;
+    bottom: 202%;
+    left: 56%;
+    border-top: 0;
+    text-align: center;
+}
+
+.eight {
+    border: 2px solid black;
+    width: 266px;
+    height: 193px;
+    position: relative;
+    bottom: 202%;
+    left: 70%;
+    text-align: center;
+}
+
+.nine {
+    border: 4px solid black;
+    width: 118px;
+    height: 199px;
+    background-color: blue;
+    position: relative;
+    bottom: 236%;
+    left: 56%;
+    text-align: center;
+}
+
+p {
+    color: white;
+    position: relative;
+    bottom: 1460px;
+    left: 15%;
+} 

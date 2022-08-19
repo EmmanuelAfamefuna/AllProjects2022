@@ -1,0 +1,37 @@
+/* star selector
+This selects all the border in the body */
+
+
+* {
+    border: 1px solid grey;
+}
+
+/* Descendant selector
+This selects all tags inside of a li */
+
+li a {
+    color: pink;
+}
+/* 
+Adjacent selector/ Jason selector
+This will select elememnts that comes after the ul*/
+
+h4 + ul {
+    border: 3px solid purple;
+}
+
+/* Attribute selector 
+This will select the target attribute */
+
+a [href="http://www.amazon.com"] {
+    background: yellow;
+}
+/* 
+nth of type selector */
+
+li:nth-of-type(2n) {
+    background: red;
+}
+
+
+

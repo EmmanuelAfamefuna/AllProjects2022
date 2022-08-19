@@ -1,0 +1,9 @@
+body {
+    border: 1px solid grey;
+}
+
+img {
+    position: relative;
+    left: 400px;
+    margin: 20px 20px;
+}

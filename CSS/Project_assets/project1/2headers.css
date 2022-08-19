@@ -1,0 +1,40 @@
+#pen {
+    background: green;
+    width: 700px;
+    height: 50px;
+    padding-top: 8px;
+    font-size: xx-large;
+    font: 500px;
+
+    /* float: center; */
+    position: relative;
+    left: 100px;
+
+    
+}
+
+#pencil {
+    background: yellow;
+    width: 700px;
+    height: 50px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: xx-large;
+    font: 500px;
+    position: relative;
+    left: 800px;
+}
+
+#clip {
+    background: red;
+    width: 400px;
+    height: 30px;
+    text-align: right;
+    position: relative;
+    left: 5000px;
+}
+
+#pet {
+    position: relative;
+    top: 200px;
+} 

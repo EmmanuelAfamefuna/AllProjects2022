@@ -1,0 +1,13 @@
+video {
+    width: 400px;
+}
+
+table, td, th {
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tfoot {
+    text-align: left;
+}
