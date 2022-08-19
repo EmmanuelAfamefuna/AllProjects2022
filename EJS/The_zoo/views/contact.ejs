@@ -1,0 +1,16 @@
+ <%- include('partials/header', { kitty: "contact", bodyId : "contact_page"})%>
+<%- include('partials/navbar')%>
+
+<h1>I am the Contact page</h1>
+
+<% data.forEach(el => { %>
+  <p><%= el.name %></p>
+  <p><%= el.owner.fname %></p>
+  <p><%= el.owner.lname %></p>
+  <p><%= el.owner.phone %></p>
+<%}) %>
+
+<%- include('partials/footer')%>
+
+
+

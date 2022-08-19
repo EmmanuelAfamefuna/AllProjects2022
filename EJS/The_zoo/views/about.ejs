@@ -1,0 +1,30 @@
+<!-- <%#- include('partials/header', {kitty: "About", bodyId : "about_page"})%>
+<%#- include('partials/navbar')%>
+
+<h1>I am the About page</h1>
+<!-- name of animal -->
+<!-- size of animal -->
+<!-- breed of animal -->
+<!-- country of animal -->
+<%# data.forEach(el => { %>
+  <%#- include('partials/card', { doggy : el})%>
+<%# }) %>
+
+<%#- include('partials/footer')%> 
+
+
+
+
+<%- include('partials/header', {kitty: "About", bodyId : "about_page"})%>
+<%- include('partials/navbar')%>
+
+<h1>I am the About page</h1>
+<!-- name of animal -->
+<!-- size of animal -->
+<!-- breed of animal -->
+<!-- country of animal -->
+<% data.forEach(el => { %>
+  <%- include('partials/card', { doggy : el})%>
+<% }) %>
+
+<%- include('partials/footer')%>

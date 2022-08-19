@@ -1,0 +1,26 @@
+<%#- include('partials/header', {kitty: "Home Page", bodyId: "body_page"})%>
+<%#- include('partials/navbar')%>
+
+ <!--    <h1>This is the Home page</h1> -->
+
+    <%# data.forEach(el => { %>
+       <!--  <p><%#= el.breed %></p> -->
+    <%# }) %>
+
+<%#- include('partials/footer')%> 
+
+
+
+
+<%- include('partials/header', {kitty: "Home Page", bodyId: "body_page"})%>
+<%- include('partials/navbar')%>
+
+    <h1>I am the Home page</h1>
+
+    <% data.forEach(el => { %>
+        <p><%= el.breed %></p>
+    <% }) %>
+
+<%- include('partials/footer')%> 
+  
+

@@ -1,0 +1,16 @@
+/*  body {
+  background-color: red;
+} */ 
+
+ #body_page {
+    background-color: cyan;
+  }
+  
+  #about_page {
+    background-color: yellow;
+  }
+
+  #contact_page {
+    background-color: darkgoldenrod;
+  } 
+
